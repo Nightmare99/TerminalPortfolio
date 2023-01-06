@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const MainContainer = styled.div`
-    border: 2px solid  rgb(11, 212, 28);
+    border: 2px solid hotpink;
     height:100vh;
     overflow:auto;
 `;
@@ -12,18 +12,14 @@ export const IntroContainer = styled.div`
     margin-top:20px;     
 `;
 
-export const ProfilePhotoContainer = styled.div`
-    width:250px;
-    height:300px;
-`;
-
 export const ProfilePhotoPre = styled.pre`
     font-size:2.3px;
-    border-radius: 25%;
+    border-radius: 100%;
     overflow:hidden;
-    border: 2px solid  rgb(11, 212, 28) ;
-
-    
+    border: 0.3px dotted hotpink;
+    width:300px;
+    height:300px;
+    margin-top: 1.2%;
 `;
 
 export const NameContainer = styled.pre`

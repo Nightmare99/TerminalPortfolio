@@ -5,14 +5,14 @@ export const PromptContainer = styled.div`
 `;
 
 export const PromptNameContainer = styled.span`
-    color:yellow;
+    color:cyan;
 `;
 
 export const PromptSymbolContainer = styled.span`
-    color:red;
+    color:hotpink;
 `;
 
 export const PromptDomainContainer = styled.span`
-    color:yellow;
+    color:cyan;
 `;
 

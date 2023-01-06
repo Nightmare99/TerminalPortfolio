@@ -6,13 +6,13 @@ export default function Prompt() {
   return (
     <PromptContainer>
       <PromptNameContainer>
-        lokesh
+        vi
       </PromptNameContainer>
-      <PromptSymbolContainer >@</PromptSymbolContainer>
+      <PromptSymbolContainer >.</PromptSymbolContainer>
       <PromptDomainContainer>
-        resume.com
+        sh
       </PromptDomainContainer>
-      <PromptSymbolContainer>:$ ~ </PromptSymbolContainer>
+      <PromptSymbolContainer>:$->>&nbsp;</PromptSymbolContainer>
     </PromptContainer>
   )
 }

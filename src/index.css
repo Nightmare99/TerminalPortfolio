@@ -1,7 +1,15 @@
 * {
-  font-family: 'Hack', monospace;
-  color: rgb(11, 212, 28) ;
-  background-color: black;  
+  font-family: 'Fira Code', monospace;
+  background-color: black;
+    
+}
+
+.font-cyan {
+  color: cyan !important;
+}
+
+.font-pink {
+  color: hotpink !important;
 }
 
 html,

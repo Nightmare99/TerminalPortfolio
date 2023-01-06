@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 export const InputContainer = styled.input`
     border:0;
     outline:0;
-    caret-color: green;
+    caret-color: cyan;
     transition: width 0.4s ease-in-out;
     font-size:1.2rem;
 `;

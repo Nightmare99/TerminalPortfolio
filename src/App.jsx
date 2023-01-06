@@ -7,7 +7,7 @@ import Contacts from './components/contacts/contact.component';
 import {IntroArt,ProfilePhoto} from './utils/asciiArt';
 import {useCommandHistory} from './utils/hooks'
 
-import {MainContainer,IntroContainer,ProfilePhotoContainer,ProfilePhotoPre,NameContainer,ComandContainer,ContactContainer} from './App.styles'
+import {MainContainer,IntroContainer,ProfilePhotoPre,NameContainer,ComandContainer,ContactContainer} from './App.styles'
 
 function App() {
 
@@ -39,19 +39,17 @@ function App() {
   return (
     <MainContainer onClick={onClickAnywhere}>
       <IntroContainer>
-        <ProfilePhotoContainer>
-          <ProfilePhotoPre>
+          <ProfilePhotoPre className="font-cyan">
             <ProfilePhoto/>
-          </ProfilePhotoPre>          
-        </ProfilePhotoContainer>
-        <NameContainer>        
+          </ProfilePhotoPre> 
+        <NameContainer className="font-pink">        
           <IntroArt/>
         </NameContainer>
-        <ContactContainer>
+        <ContactContainer className="font-cyan">
           <Contacts/>
         </ContactContainer>
       </IntroContainer>
-      <ComandContainer>
+      <ComandContainer className='font-cyan'>
         <CommandHistory commandHistory ={commandHistory} />
         <br></br>
         <Input
